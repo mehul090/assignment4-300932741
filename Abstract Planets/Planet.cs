@@ -28,13 +28,13 @@ namespace Abstract_Planets
         //public properties
         public double Diameter
         {
-            get;
+            get { return this._diameter; }
 
         }
 
         public double Mass
         {
-            get;
+            get { return this._mass; }
             
         }
 
@@ -52,7 +52,7 @@ namespace Abstract_Planets
 
         public string Name
         {
-            get;
+            get { return this._name; }
            
         }
 
@@ -102,15 +102,15 @@ namespace Abstract_Planets
         /// <param name="mass"></param>
         public Planet(string name, double diameter, double mass)
         {
-            this.Name = name;
-            this.Diameter = diameter;
-            this.Mass = mass;
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
         }
 
 
         public override string ToString()
         {
-            return string.Format("{} {} {} ");
+            return string.Format("{0} {1} {2} ",Name,Diameter,Mass);
         }
 
 
