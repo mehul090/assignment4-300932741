@@ -15,8 +15,13 @@ namespace Abstract_Planets
     /// this is IHasMoon interface
     /// </summary>
     public interface IHasMoon
-    { 
+    {
         //public property
-        bool MoonCount { get; set; }
+        bool HasMoon();
+
+      
     }
+
+
+
 }

@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Abstract_Planets.Planet">
-    <Position X="1.75" Y="1.75" Width="3.5" />
+    <Position X="1.75" Y="1.75" Width="3" />
     <TypeIdentifier>
       <HashCode>AAQAIAAgAAAAAEAEAAABCAQBACAAAAQAEAABAACAAQA=</HashCode>
       <FileName>Planet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Abstract_Planets.GiantPlanet">
-    <Position X="5.75" Y="1.75" Width="1.5" />
+    <Position X="5.25" Y="1.75" Width="4.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Abstract_Planets.IHasMoon">
-    <Position X="7.5" Y="1.75" Width="1.5" />
+    <Position X="5" Y="4" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMoon.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Abstract_Planets.IHasRings">
-    <Position X="7.5" Y="3.25" Width="1.5" />
+    <Position X="8" Y="4" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasRings.cs</FileName>

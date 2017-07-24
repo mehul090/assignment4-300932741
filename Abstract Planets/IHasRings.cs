@@ -17,6 +17,6 @@ namespace Abstract_Planets
     public interface IHasRings
     {
         //public property
-        bool RingCount { get; set; }
+        bool HasRings();
     }
 }

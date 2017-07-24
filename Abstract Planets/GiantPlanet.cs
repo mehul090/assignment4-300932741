@@ -19,18 +19,10 @@ namespace Abstract_Planets
         private string _type;
 
         //public properties
-        public bool MoonCount
-        {
-            get { return this._type; }
-            set { this._type = value; }
-        }
+        //public bool MoonCount { get; set; }
 
-        public bool RingCount
-        {
-            get { return this._type; }
-            set { this._type = value; }
-        }
-
+        //public bool RingCount { get; set; }
+        
         //constructor--------------
         /// <summary>
         /// this is the constructor for GiantPlanet
@@ -39,11 +31,27 @@ namespace Abstract_Planets
         /// <param name="name"></param>
         /// <param name="diameter"></param>
         /// <param name="mass"></param>
-        public GiantPlanet(string name ,double diameter , double mass , bool MoonCount , bool RingCount)
+        public GiantPlanet(string name ,double diameter , double mass , string type )
             :base(name,diameter,mass)
         {
-            this.MoonCount = MoonCount;
-            this.RingCount = RingCount;
+            this._type = type;
+        }
+        public bool HasMoon()
+        {
+            if(MoonCount>0)
+            {
+                Console.WriteLine("");
+            }return true;
+        }
+
+        public bool HasRings()
+        {
+            if (RingCount > 0)
+            {
+                Console.WriteLine("");
+            }
+            return true;
+
         }
 
         
