@@ -19,9 +19,7 @@ namespace Abstract_Planets
         private string _type;
 
         //public properties
-        //public bool MoonCount { get; set; }
-
-        //public bool RingCount { get; set; }
+        
         
         //constructor--------------
         /// <summary>
