@@ -6,7 +6,7 @@ using System.Text;
  * Name: Mehul khosla
  * Date: july 17,2017
  * Description: Ths is the abstract Planet class
- * Version:0.1 
+ * Version:0.2 - editted overide ToString() 
  * */
 
 namespace Abstract_Planets
@@ -108,9 +108,13 @@ namespace Abstract_Planets
         }
 
 
+       
+
         public override string ToString()
         {
-            return string.Format("{0} {1} {2} ",Name,Diameter,Mass);
+            string output = "The planet " + this.Name + " has a diameter of " + this.Diameter + "km " + " and has a mass of : " + this.Mass + " x 10^24 kg";
+            Console.WriteLine(output);
+            return output;
         }
 
 
