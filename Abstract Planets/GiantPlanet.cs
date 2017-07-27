@@ -13,14 +13,14 @@ namespace Abstract_Planets
     /// <summary>
     /// this is the GiantPlanet class
     /// </summary>
-    public class GiantPlanet : Planet,IHasMoon,IHasRings
+    public class GiantPlanet : Planet, IHasMoon, IHasRings
     {
         //private instance variable
         private string _type;
 
         //public properties
-        
-        
+
+
         //constructor--------------
         /// <summary>
         /// this is the constructor for GiantPlanet
@@ -29,31 +29,35 @@ namespace Abstract_Planets
         /// <param name="name"></param>
         /// <param name="diameter"></param>
         /// <param name="mass"></param>
-        public GiantPlanet(string name ,double diameter , double mass , string type )
-            :base(name,diameter,mass)
+        public GiantPlanet(string name, double diameter, double mass, string type)
+            : base(name, diameter, mass)
         {
             this._type = type;
         }
         public bool HasMoon()
         {
-            if(MoonCount>0)
+            if (MoonCount > 0)
             {
-                Console.WriteLine("");
-            }return true;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public bool HasRings()
         {
             if (RingCount > 0)
             {
-                Console.WriteLine("");
+                return true;
             }
-            return true;
+            else
+            {
+                return false;
+            }
 
         }
-
-      
-
 
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * Name: Mehul khosla
  * Date: july 26,2017
  * Description: Ths is the driver program class
- * Version:0.1 - added planets to driver class
+ * Version:0.1 
  * */
 namespace Abstract_Planets
 {
