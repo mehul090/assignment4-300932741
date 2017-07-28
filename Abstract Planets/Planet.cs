@@ -112,7 +112,7 @@ namespace Abstract_Planets
 
         public override string ToString()
         {
-            string output = "The planet " + this.Name + " has a diameter of " + this.Diameter + "km " + " and has a mass of : " + this.Mass + " x 10^24 kg" ;
+            string output =   this.Name + " has a diameter of " + this.Diameter + " km " + " and has a mass of : " + this.Mass + " x 10^24 kg" ;
             Console.WriteLine(output);
             return output;
         }
