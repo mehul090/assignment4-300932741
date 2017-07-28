@@ -34,6 +34,7 @@ namespace Abstract_Planets
             Console.WriteLine("******************************************************");
             Console.WriteLine("*            TERRESTRIAL PLANET IS AS FOLLOWS:       *");
             Console.WriteLine("******************************************************");
+            Program.WAITFORANYKEY();
             terrestrialPlanet.ToString();
             Program.WAITFORANYKEY();
         }
